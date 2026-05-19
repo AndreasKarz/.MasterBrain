@@ -1,0 +1,43 @@
+filters:
+  or:
+    - 'file.hasTag("masterbrain")'
+    - 'file.inFolder("30_Projects")'
+    - 'file.inFolder("60_Decisions")'
+formulas:
+  needs_review: 'if(review, date(review) <= today(), false)'
+  age_days: '(today() - file.mtime).days.round(0)'
+properties:
+  file.name:
+    displayName: "Note"
+  status:
+    displayName: "Status"
+  sensitivity:
+    displayName: "Sensitivity"
+  review:
+    displayName: "Review"
+  formula.needs_review:
+    displayName: "Needs Review"
+  formula.age_days:
+    displayName: "Age Days"
+views:
+  - type: table
+    name: "Review Queue"
+    filters:
+      or:
+        - 'formula.needs_review == true'
+        - 'status == "draft"'
+    order:
+      - file.name
+      - status
+      - sensitivity
+      - review
+      - formula.needs_review
+      - formula.age_days
+  - type: table
+    name: "All MasterBrain Notes"
+    order:
+      - file.name
+      - status
+      - sensitivity
+      - review
+      - file.mtime

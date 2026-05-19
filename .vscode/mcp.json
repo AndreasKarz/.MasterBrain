@@ -1,0 +1,44 @@
+{
+  "servers": {
+    "ado": {
+      "type": "stdio",
+      "command": "npx.cmd",
+      "args": [
+        "-y",
+        "@azure-devops/mcp@latest",
+        "swisslife",
+        "--authentication",
+        "azcli"
+      ]
+    },
+    "sequential-thinking": {
+      "command": "npx.cmd",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-sequential-thinking"
+      ]
+    },
+    "microsoft-docs": {
+      "type": "http",
+      "url": "https://learn.microsoft.com/api/mcp"
+    },
+    "memory": {
+      "command": "npx.cmd",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-memory@latest"
+      ],
+      "env": {
+        "MEMORY_FILE_PATH": "${env:USERPROFILE}\\.vscode-insiders\\mcp-memory.json"
+      }
+    },
+    "drawio": {
+      "type": "stdio",
+      "command": "npx.cmd",
+      "args": [
+        "-y",
+        "@drawio/mcp"
+      ]
+    }
+  }
+}

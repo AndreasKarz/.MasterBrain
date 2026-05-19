@@ -1,0 +1,16 @@
+{
+  "chat.agentFilesLocations": {
+    "agents": true,
+    ".github/agents": true
+  },
+  "chat.instructionsFilesLocations": {
+    "instructions": true,
+    ".github/instructions": true
+  },
+  "chat.promptFilesLocations": {
+    "prompts": true,
+    ".github/prompts": true
+  },
+  "chat.useAgentsMdFile": true,
+  "chat.useClaudeMdFile": true
+}
