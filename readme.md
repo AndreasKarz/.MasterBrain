@@ -191,3 +191,37 @@ MasterBrain soll nicht in jeden Projekt-Workspace als Ordner eingefuegt werden. 
 ## Faustregel
 
 Schreibe fuer Menschen in Notes, fuer AI in DIGEST, und bewahre Originalquellen in RAW auf. Wenn etwas spaeter wichtig sein wird, mache es auffindbar, kurz und sicher.
+
+## Obsidian Plugins
+
+https://community.obsidian.md/search?type=plugin 
+
+### OneNote
+https://obsidian.md/help/import/onenote => https://obsidian.md/help/plugins/importer
+
+### E-Mails
+https://chatgpt.com/share/6a0c2213-4a60-83eb-b6e2-a1b7ba71ce04 
+
+### Weitere
+- https://community.obsidian.md/plugins/portals
+- https://community.obsidian.md/plugins/semantic-vault-mcp
+- https://community.obsidian.md/plugins/tasks-map
+- https://community.obsidian.md/plugins/mediaviewer
+- https://community.obsidian.md/plugins/default-template
+- https://community.obsidian.md/plugins/note-gallery
+- https://community.obsidian.md/plugins/base-board
+- https://community.obsidian.md/plugins/block-view
+
+Schon konfiguriert:
+- https://community.obsidian.md/plugins/vcf-contacts
+- https://community.obsidian.md/plugins/url-into-selection
+- https://community.obsidian.md/plugins/pdf-plus
+- https://community.obsidian.md/plugins/obsidian-advanced-uri
+- https://community.obsidian.md/plugins/obsidian-excalidraw-plugin
+- https://community.obsidian.md/plugins/github-copilot
+- https://community.obsidian.md/plugins/fast-text-color
+- https://community.obsidian.md/plugins/data-files-editor
+- https://community.obsidian.md/plugins/colored-tags-wrangler
+- https://community.obsidian.md/plugins/omnisearch
+
+- https://community.obsidian.md/plugins/obsidian-tasks-plugin

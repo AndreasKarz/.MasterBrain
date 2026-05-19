@@ -186,12 +186,11 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 653.5,
-    "collapsed": true
+    "width": 653.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -211,12 +210,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "062c3410e32796c2",
+  "active": "4a76bcc338695a4c",
   "lastOpenFiles": [
     "Home.md",
-    "SL Workbench.md",
+    "00_Inbox/lof saf.md",
     "DIGEST/projects.md",
     "10_MOC/MasterBrain MOC.md",
+    "SL Workbench.md",
     "40_Resources/Fusion-UI Playwright GraphQL Interception.md",
     "00_Inbox/2026-05-11.md",
     "50_People/Daniel Stabile.md",
@@ -238,7 +238,6 @@
     "50_People/Asani Bejtulla.md",
     "50_People/Dieter Niggeler.md",
     "50_People/Patrick Maurer.md",
-    "50_People/Mauro Hefti.md",
     "Contacts"
   ]
 }
